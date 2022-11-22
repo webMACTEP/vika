@@ -195,3 +195,234 @@ body {
             flex-direction: column;
   }
 }
+
+.metro {
+  padding: 70px 0px 100px 0px;
+}
+
+.metro svg {
+  margin-right: 10px;
+}
+
+.metro p {
+  font-weight: 400;
+  font-size: 16px;
+  margin: 0px 0px 12px 0px;
+  color: #555555;
+}
+
+.metro span {
+  display: block;
+  font-weight: 700;
+  font-size: 16px;
+  margin: 0px 0px 5px 0px;
+  color: #555555;
+}
+
+.metro .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0px 13px 0px 0px;
+}
+
+.metro .vetka01 {
+  margin: 0px 0px 18px 14px;
+  position: relative;
+}
+
+.metro .vetka01 svg {
+  fill: #8e469c;
+}
+
+.metro .vetka01::before {
+  position: absolute;
+  content: "";
+  left: -14px;
+  top: 0;
+  width: 3px;
+  height: 100%;
+  background: #8e469c;
+}
+
+.metro .vetka02 {
+  margin: 0px 0px 18px 14px;
+  position: relative;
+}
+
+.metro .vetka02 svg {
+  fill: #3cb9ff;
+}
+
+.metro .vetka02::before {
+  position: absolute;
+  content: "";
+  left: -14px;
+  top: 0;
+  width: 3px;
+  height: 100%;
+  background: #3cb9ff;
+}
+
+.metro .vetka03 {
+  margin: 0px 0px 18px 14px;
+  position: relative;
+}
+
+.metro .vetka03 svg {
+  fill: #ff8686;
+}
+
+.metro .vetka03::before {
+  position: absolute;
+  content: "";
+  left: -14px;
+  top: 0;
+  width: 3px;
+  height: 100%;
+  background: #ff8686;
+}
+
+.metro .vetka04 {
+  margin: 0px 0px 18px 14px;
+  position: relative;
+}
+
+.metro .vetka04 svg {
+  fill: #ff1e1e;
+}
+
+.metro .vetka04::before {
+  position: absolute;
+  content: "";
+  left: -14px;
+  top: 0;
+  width: 3px;
+  height: 100%;
+  background: #ff1e1e;
+}
+
+.metro .vetka05 {
+  margin: 0px 0px 18px 14px;
+  position: relative;
+}
+
+.metro .vetka05 svg {
+  fill: #b7e3be;
+}
+
+.metro .vetka05::before {
+  position: absolute;
+  content: "";
+  left: -14px;
+  top: 0;
+  width: 3px;
+  height: 100%;
+  background: #b7e3be;
+}
+
+.metro .vetka06 {
+  margin: 0px 0px 18px 14px;
+  position: relative;
+}
+
+.metro .vetka06 svg {
+  fill: #979797;
+}
+
+.metro .vetka06::before {
+  position: absolute;
+  content: "";
+  left: -14px;
+  top: 0;
+  width: 3px;
+  height: 100%;
+  background: #979797;
+}
+
+.metro .vetka07 {
+  margin: 0px 0px 18px 14px;
+  position: relative;
+}
+
+.metro .vetka07 svg {
+  fill: #1e5dff;
+}
+
+.metro .vetka07::before {
+  position: absolute;
+  content: "";
+  left: -14px;
+  top: 0;
+  width: 3px;
+  height: 100%;
+  background: #1e5dff;
+}
+
+.metro .vetka08 {
+  margin: 0px 0px 18px 14px;
+  position: relative;
+}
+
+.metro .vetka08 svg {
+  fill: #39c14f;
+}
+
+.metro .vetka08::before {
+  position: absolute;
+  content: "";
+  left: -14px;
+  top: 0;
+  width: 3px;
+  height: 100%;
+  background: #39c14f;
+}
+
+.metro .vetka09 {
+  margin: 0px 0px 18px 14px;
+  position: relative;
+}
+
+.metro .vetka09 svg {
+  fill: #ff7d1e;
+}
+
+.metro .vetka09::before {
+  position: absolute;
+  content: "";
+  left: -14px;
+  top: 0;
+  width: 3px;
+  height: 100%;
+  background: #ff7d1e;
+}
+
+.metro .vetka10 {
+  margin: 0px 0px 18px 14px;
+  position: relative;
+}
+
+.metro .vetka10 svg {
+  fill: #ffdb1e;
+}
+
+.metro .vetka10::before {
+  position: absolute;
+  content: "";
+  left: -14px;
+  top: 0;
+  width: 3px;
+  height: 100%;
+  background: #ffdb1e;
+}
+
+.metro .wrapp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}

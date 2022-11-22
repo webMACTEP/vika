@@ -94,3 +94,191 @@ body {
       flex-direction: column;
    }
 }
+.metro {
+   svg {
+      margin-right: 10px;
+   }
+   p {
+      font-weight: 400;
+      font-size: 16px;
+      margin: 0px 0px 12px 0px;
+      color: #555555;
+   }
+   span {
+      display: block;
+      font-weight: 700;
+      font-size: 16px;
+      margin: 0px 0px 5px 0px;
+      color: #555555;
+   }
+   .item {
+      display: flex;
+      margin: 0px 13px 0px 0px;
+   }
+   .vetka01 {
+      margin: 0px 0px 18px 14px;
+      position: relative;
+      svg {
+         fill: #8e469c;
+      }
+      &::before {
+         position: absolute;
+         content: "";
+         left: -14px;
+         top: 0;
+         width: 3px;
+         height: 100%;
+         background: #8e469c;
+      }
+   }
+   .vetka02 {
+      margin: 0px 0px 18px 14px;
+      position: relative;
+      svg {
+         fill: #3cb9ff;
+      }
+      &::before {
+         position: absolute;
+         content: "";
+         left: -14px;
+         top: 0;
+         width: 3px;
+         height: 100%;
+         background: #3cb9ff;
+      }
+   }
+   .vetka03 {
+      margin: 0px 0px 18px 14px;
+      position: relative;
+      svg {
+         fill: #ff8686;
+      }
+      &::before {
+         position: absolute;
+         content: "";
+         left: -14px;
+         top: 0;
+         width: 3px;
+         height: 100%;
+         background: #ff8686;
+      }
+   }
+   .vetka04 {
+      margin: 0px 0px 18px 14px;
+      position: relative;
+      svg {
+         fill: #ff1e1e;
+      }
+      &::before {
+         position: absolute;
+         content: "";
+         left: -14px;
+         top: 0;
+         width: 3px;
+         height: 100%;
+         background: #ff1e1e;
+      }
+   }
+   .vetka05 {
+      margin: 0px 0px 18px 14px;
+      position: relative;
+      svg {
+         fill: #b7e3be;
+      }
+      &::before {
+         position: absolute;
+         content: "";
+         left: -14px;
+         top: 0;
+         width: 3px;
+         height: 100%;
+         background: #b7e3be;
+      }
+   }
+   .vetka06 {
+      margin: 0px 0px 18px 14px;
+      position: relative;
+      svg {
+         fill: #979797;
+      }
+      &::before {
+         position: absolute;
+         content: "";
+         left: -14px;
+         top: 0;
+         width: 3px;
+         height: 100%;
+         background: #979797;
+      }
+   }
+   .vetka07 {
+      margin: 0px 0px 18px 14px;
+      position: relative;
+      svg {
+         fill: #1e5dff;
+      }
+      &::before {
+         position: absolute;
+         content: "";
+         left: -14px;
+         top: 0;
+         width: 3px;
+         height: 100%;
+         background: #1e5dff;
+      }
+   }
+   .vetka08 {
+      margin: 0px 0px 18px 14px;
+      position: relative;
+      svg {
+         fill: #39c14f;
+      }
+      &::before {
+         position: absolute;
+         content: "";
+         left: -14px;
+         top: 0;
+         width: 3px;
+         height: 100%;
+         background: #39c14f;
+      }
+   }
+   .vetka09 {
+      margin: 0px 0px 18px 14px;
+      position: relative;
+      svg {
+         fill: #ff7d1e;
+      }
+      &::before {
+         position: absolute;
+         content: "";
+         left: -14px;
+         top: 0;
+         width: 3px;
+         height: 100%;
+         background: #ff7d1e;
+      }
+   }
+   .vetka10 {
+      margin: 0px 0px 18px 14px;
+      position: relative;
+      svg {
+         fill: #ffdb1e;
+      }
+      &::before {
+         position: absolute;
+         content: "";
+         left: -14px;
+         top: 0;
+         width: 3px;
+         height: 100%;
+         background: #ffdb1e;
+      }
+   }
+   .wrapp {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+   }
+   padding: 70px 0px 100px 0px;
+}
